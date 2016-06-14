@@ -1,0 +1,102 @@
+
+$svgFill: black;
+$strokeColor: #a63940;
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
+
+#Layer_1 {
+  height: 40%;
+  width: 77%;
+  position: absolute;
+  left: 13%;
+  top: 15%; }
+
+#Layer_2 {
+  position: absolute;
+  height: 56%;
+  width: 97%;
+  right: 3%;
+  top: 43%;
+}
+
+
+.j {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1.7s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.e {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.d {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.b {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.r {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.u {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 4s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.n {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.d {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.i {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.g {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+
+.e {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+  stroke: $strokeColor;
+  fill: $svgFill; }
+

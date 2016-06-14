@@ -1,0 +1,49 @@
+
+h1{
+  font-size: 3em;
+  text-align: center;
+}
+
+#message{
+  position: relative;
+  top: 20%;
+  border-bottom: solid lightseagreen thin;
+  width: 40%;
+  left: 31%;
+}
+
+#hosue{
+  position: relative;
+  left: 25%;
+}
+
+#envelope{
+  position: relative;
+  left: 30%;
+}
+
+#phoneIcon{
+  position: relative;
+  left: 35%;
+}
+
+#address{
+  position: absolute;
+  left: 32%;
+  top: 47%;
+  font-size: 1.5em;
+}
+
+#email{
+  position: absolute;
+  left: 47%;
+  top: 47%;
+  font-size: 1.5em;
+}
+
+#phone{
+  position: absolute;
+  left: 65%;
+  top: 48.4%;
+  font-size: 1.5em;
+}

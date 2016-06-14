@@ -1,0 +1,31 @@
+
+$circleBorder: solid #a63940 7px;
+
+h1{
+  font-size: 3em;
+  text-align: center;
+}
+
+#myPicture{
+  height: 35%;
+  width: 17%;
+  border: $circleBorder;
+  border-radius: 50%;
+  position: relative;
+  left: 40%;
+
+  #pictureBG {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+#aboutContent{
+  position: relative;
+  width: 80%;
+  height: 45%;
+  border: solid red 3px;
+  left: 10%;
+  top: 1%;
+}

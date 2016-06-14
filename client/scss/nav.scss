@@ -1,0 +1,80 @@
+
+
+@mixin transition($transition...){
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+@mixin  transform($transform...){
+  -moz-transform: $transform;
+  -o-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+@mixin perspective($perspective...){
+  -moz-perspective: $perspective;
+  -webkit-perspective: $perspective;
+  -o-perspective: $perspective;
+  perspective: $perspective;
+}
+
+
+$linkColor: white;
+$linkHoverColor: black;
+
+
+nav {
+  height: 9%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  padding-top: 1.5%;
+  background-color: #00b3ee;
+
+  ul{
+
+    li{
+      list-style-type: none;
+      display: inline;
+      padding-right: 5%;
+      margin: 0;
+
+      a{
+        text-decoration: none;
+        font-size: 1.8em;
+        color: $linkColor;
+        font-family: Raleway;
+        position: relative;
+        @include transition(.6s);
+      }
+
+      a:hover{
+        color: $linkHoverColor;
+        text-decoration: none !important;
+      }
+
+      a:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        border-bottom: solid black 3px;
+        @include transition(.4s);
+      }
+
+      a:hover:after{
+        width: 100%;
+      }
+
+      a:focus{
+        outline: none;
+        color: $linkHoverColor;
+        border-bottom: solid black 3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+
+$circleBorder: solid #a63940 7px;
+
+h1{
+  font-size: 3em;
+  text-align: center;
+}
+
+#knabba{
+  height: 27%;
+  width: 13%;
+  border: $circleBorder;
+  border-radius: 50%;
+  position: absolute;
+  left: 30%;
+
+  #knabbaBG{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+#carischApp{
+  height: 27%;
+  width: 13%;
+  border: $circleBorder;
+  border-radius: 50%;
+  position: absolute;
+  left: 55%;
+
+  #carischBG{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+#curling{
+  height: 27%;
+  width: 13%;
+  border: $circleBorder;
+  border-radius: 50%;
+  position: absolute;
+  left: 30%;
+  top: 55%;
+}
+
+#portfolio{
+  height: 27%;
+  width: 13%;
+  border: $circleBorder;
+  border-radius: 50%;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+}

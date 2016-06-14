@@ -1,0 +1,22 @@
+{
+  "name": "newFolio",
+  "authors": [
+    "jedbrun@hotmail.com <jedbrun@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.6",
+    "jquery": "^3.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+
+$headerColor: rgba(251, 50, 2, 1);
+
+.app-modal-window .modal-dialog{
+  width: 1200px;
+}
+
+.modalHeight{
+  height: 700px;
+}
+
+.headerStyle{
+  color: $headerColor;
+  font-family: 'Raleway', sans-serif;
+}

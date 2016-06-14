@@ -73,6 +73,7 @@ nav {
       a:focus{
         outline: none;
         color: $linkHoverColor;
+        text-decoration: none;
         border-bottom: solid black 3px;
       }
     }

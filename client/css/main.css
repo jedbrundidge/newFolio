@@ -39,6 +39,7 @@ nav {
     nav ul li a:focus {
       outline: none;
       color: black;
+      text-decoration: none;
       border-bottom: solid black 3px; }
 
 @keyframes dash {
@@ -158,6 +159,9 @@ h1 {
     height: 100%;
     width: 100%;
     border-radius: 50%; }
+
+.cursor:hover {
+  cursor: pointer; }
 
 #carischApp {
   height: 27%;
@@ -279,11 +283,10 @@ h1 {
 .slider {
   position: relative;
   padding: 5px;
-  height: 95%;
+  height: 100%;
   width: 100%;
-  margin: auto;
-  margin-top: 10px;
-  border: solid rebeccapurple 3px; }
+  bottom: 38px;
+  margin: auto; }
 
 .slides {
   position: absolute;
@@ -292,12 +295,9 @@ h1 {
   box-shadow: 0px 0px 15px #999; }
 
 .arrows {
-  position: absolute;
-  top: 10px;
-  right: 20px; }
-
-.arrows img {
-  height: 32px; }
+  position: relative;
+  top: -103%;
+  left: 500px; }
 
 h1 {
   text-align: center;
@@ -306,9 +306,21 @@ h1 {
   color: #222; }
 
 .imgSize {
-  position: absolute;
-  height: 50%;
-  width: 50%; }
+  position: relative;
+  top: 10px;
+  height: 620px;
+  width: 1150px; }
+
+.focus:focus {
+  outline: none; }
+
+.space {
+  padding: 2em; }
+
+.title {
+  color: #fb3202;
+  position: relative;
+  top: 50px; }
 
 .app-modal-window .modal-dialog {
   width: 1200px; }
